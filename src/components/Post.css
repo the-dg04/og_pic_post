@@ -1,0 +1,15 @@
+.title-input{
+    background-color: var(--color-100);
+    border: 1px solid black;
+    width:95vw;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.content-input{
+    background-color: var(--color-100);
+    border: 1px solid black;
+    width:95vw;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
