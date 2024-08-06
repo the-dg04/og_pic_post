@@ -20,8 +20,6 @@ function App() {
           <Route path="post/:title/:content" element={<PostPage/>}/>
         </Routes>
       </Router>
-      {/* <OgImage /> */}
-      {/* <PostCard /> */}
     </div>
     </>
   );

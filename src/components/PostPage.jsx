@@ -1,5 +1,4 @@
 import { useParams } from "react-router-dom";
-import {Helmet} from "react-helmet";
 import PostCard from "./PostCard";
 import DownloadCard from "./DownloadCard";
 import OgImage from "../utils/og";
@@ -25,7 +24,6 @@ export default function PostPage(){
         <>
             <PostCard title={params.title} content={params.content}/>
             <DownloadCard title={params.title} content={params.content}/>
-            {/* <a href={url}>Download og:image</a> */}
             <button className="blocky" onClick={handleClick}>Download og:image</button>
         </>
     );
